@@ -34,7 +34,7 @@ Add additional entries as needed for other instances.
 1. Ensure that nc (netcat) is installed on your system.
 2. Run the script to measure latency across the configured CloudSQL instances:
     ```
-    python3 cloudsql-check-latency.py
+    python3 cloudsql-latency-tester.py
     ```
 3. The script will:
     * Load connection settings from the .env file.
